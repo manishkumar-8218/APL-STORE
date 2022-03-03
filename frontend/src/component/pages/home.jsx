@@ -1,7 +1,10 @@
 import React from 'react';
 import Library from '../../images/home library.png'
+import Cart from '../cart/cartPage'
+import PythonPage from '../cart/pythonPage';
 const Home = () => {
     return (
+        <>
         <div className='bg-cyan-700 w-screen h-screen flex flex-row'>
             <div className='w-1/2 flex justify-center  '>
                 <div  className=' '>
@@ -15,6 +18,9 @@ const Home = () => {
                  <img className=' w-9/12 h-9/12'  src={Library} alt="Home" />
             </div>
         </div>
+        <Cart/>
+        <PythonPage/>
+        </>
     );
 }
 

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Cartpage = () => {
+const PythonPage = () => {
     return (
        <div className=' bg-slate-700 flex flex-col '>
            <div className=' h-20 w-screen  bg-orange-400'>
-                      <p className=' text-4xl  text-center mt-5 align-middle font-mono font-bold text-black items-center'> JAVA SCRIPT</p>
+                      <p className=' text-4xl  text-center mt-5 align-middle font-mono font-bold text-black items-center'> PYTHON</p>
            </div>
            <div className=' bg-slate-800 w-screen flex flex-row flex-wrap justify-evenly '>
                     <div className=' overflow-hidden my-10 ml-10 bg-orange-400 h-1/4 w-1/4 rounded-3xl hover:shadow-2xl hover:shadow-cyan-700'>
@@ -25,4 +25,4 @@ const Cartpage = () => {
     );
 }
 
-export default Cartpage;
+export default PythonPage;
