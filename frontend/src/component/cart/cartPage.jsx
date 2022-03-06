@@ -19,6 +19,12 @@ const Cartpage = () => {
                                                 voluptatem cumque architecto consequuntur excepturi eligendi a placeat saepe culpa iusto, eum omnis quisquam velit! Consequatur laboriosam fugit quaerat sint ratione.
                                       </p>
                                 </div>
+                                
+                                <button className='ml-2 flex justify-center items-center mb-4 rounded-2xl bg-slate-900 w-36 h-11 hover:border-2 hover:border-cyan-700 hover:shadow-2xl hover:shadow-cyan-700' >
+                                <span className=' text-2xl font-mono font-normal text-cyan-700'>
+                                        Main Page 
+                                    </span>
+                                </button>
                     </div>
            </div>
        </div>
